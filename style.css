@@ -1,0 +1,172 @@
+* {
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*slider section*/
+.slider-sec {
+    display: flex;
+    padding: 50px 0;
+}
+
+.slider-text {
+    width: 40%;
+    padding: 0 10%;
+}
+
+.slider-text h1 {
+    font-size: 46px;
+    color: gray;
+}
+
+.slider-text h1 span {
+    color: #fb8f43;
+}
+
+.slider-text p {
+    padding: 30px 0;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(230, 165, 44), rgb(231, 117, 68));
+    box-shadow: 3px 3px 4px rgb(208, 80, 48);
+}
+
+.slider-img {
+    width: 50%;
+    margin-right: 10%;
+}
+
+/* About Section*/
+.about-section {
+    display: flex;
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 150px 0 !important;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    height: 500px;
+}
+
+.about-text {
+    width: 50%;
+    padding: ;
+}
+
+.about-text h1 {
+    font-size: 50px;
+    color: gray;
+}
+
+.about-text p {
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+/*item section*/
+
+.item-sec-head {
+    margin: 0px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.item-sec-head h1 {
+    color: gray;
+    padding: 25px 0;
+    font-size: 40px;
+}
+
+.item-sec-head p {
+    padding-bottom: 20px;
+}
+
+/*Recipie Item section*/
+.recipi-item {
+    display: flex;
+}
+
+.recipi-1 {
+    width: 44%;
+    box-shadow: 10px 10px 40px #999898;
+    margin: 0 3%;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+.recipi-1 .recipi-img img {
+    max-width: 100%;
+}
+
+.recipi-1 h1 {
+    font-size: 30px;
+}
+
+.recipi-1 p {
+    font-size: 15px;
+}
+
+/* Counter section*/
+
+.counter-sec {
+    margin: 100px 110px;
+    box-shadow: 10px 10px 40px #999898;
+    border-radius: 20px;
+}
+
+.counter-sec ul {
+    text-align: center;
+}
+
+.counter-sec ul li {
+    display: inline-block;
+    padding: 50px 75px;
+}
+
+.counter-sec ul li h1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.counter-sec ul li p {
+    color: gray;
+}
+
+/* Footer section*/
+footer {
+    padding: 30px 0 80px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+footer span {
+    color: #f77010 !important;
+}
+
+footer h1 {
+    padding-bottom: 20px;
+    color: gainsboro;
+}
+
+footer p {
+    color: gray;
+}
